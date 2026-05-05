@@ -1,0 +1,12 @@
+{
+  "name": "jump-game",
+  "version": "1.0.0",
+  "description": "LayaAir 跳跃小人游戏",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}

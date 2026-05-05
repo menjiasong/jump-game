@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "none",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outFile": "js/game.js",
+    "rootDir": "src",
+    "sourceMap": true
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

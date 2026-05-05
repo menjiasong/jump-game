@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>跳跃小人 - Jump Game</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #0a0a1a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow: hidden;
+            font-family: monospace;
+        }
+        #game-container {
+            border: 2px solid #334;
+            border-radius: 4px;
+            box-shadow: 0 0 30px rgba(50, 50, 150, 0.3);
+        }
+        canvas { display: block; }
+    </style>
+</head>
+<body>
+    <div id="game-container"></div>
+
+    <!-- LayaAir 3.x 引擎 (从本地 IDE 复制) -->
+    <script src="libs/laya.core.js"></script>
+    <script src="libs/laya.webgl_2D.js"></script>
+    <script src="libs/laya.ui.js"></script>
+
+    <!-- 游戏逻辑 -->
+    <script src="js/game.js"></script>
+</body>
+</html>
